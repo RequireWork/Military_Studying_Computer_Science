@@ -1,0 +1,45 @@
+grade = 86
+
+if grade >= 90:
+  print("A")
+elif grade >= 80:
+  print("B")
+elif grade >= 70:
+  print("C")
+elif grade >= 60:
+  print("D")
+else:
+  print("F")
+
+print("I have information for the following planets:\n")
+
+print("   1. Venus   2. Mars    3. Jupiter")
+print("   4. Saturn  5. Uranus  6. Neptune\n")
+ 
+weight = 185
+planet = 3
+
+# Write an if statement below:
+
+if(planet == 3):
+  print("You are on Jupiter!")
+newweight = 185 * 2.34
+print(newweight," is your current weight!")
+
+# Fortune Cookie Program 🥠
+
+import random
+
+fortune = random.randint(0, 4)
+
+if fortune == 0:
+  print("May you one day be carbon neutral")
+elif fortune == 1:  
+  print("You have rice in your teeth")
+elif fortune == 2:
+  print("No snowflake feels responsible for an avalanche")
+elif fortune == 3:
+  print("You can only connect the dots looking backwards")
+elif fortune == 4:
+  print("The fortune you seek is in another cookie")
+
