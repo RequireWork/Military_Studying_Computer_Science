@@ -82,3 +82,42 @@ else:
 print("Magic 8-Ball's answer: ", answer)
 
 
+weight = 5
+cost = 20.00
+pcost = 125.00
+choice = True
+
+if(choice):
+  #Ground Shipping
+  if(weight <= 2):
+    print("20.00 with 1.5 for every pound")
+    cost += 1.5 * weight
+    pcost += 1.5 * weight
+  elif(weight > 2 and weight <= 6):
+    print("20.00 with 3 for every pound")
+    cost += 3 * weight
+    pcost += 3 * weight
+  elif(weight > 6 and weight <= 10):
+    print("20.00 with 4 for every pound")
+    cost += 4 * weight
+    pcost += 4 * weight
+  elif(weight > 10):
+    print("20.00 with 4.75 for every pound")
+    cost += 4.75 * weight
+    pcost += 4.75 * weight
+
+else:
+  dcost = 0
+  #Drop Shipping
+  if(weight <= 2):
+    print("4.5 for every pound")
+    dcost += 4.5 * weight
+  elif(weight > 2 and weight <= 6):
+    print("9 for every pound")
+    dcost += 9 * weight
+  elif(weight > 6 and weight <= 10):
+    print("12 for every pound")
+    dcost += 12 * weight
+  elif(weight > 10):
+    print("14.25 for every pound")
+    dcost += 14.25 * weight
