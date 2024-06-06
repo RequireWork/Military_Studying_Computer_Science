@@ -5,3 +5,16 @@ ints_and_strings = [1, 2, 3, "four", "five","work"]
 sam_height_and_testscore = ["Sam", 67, 85.5, True]
 
 my_empty_list = []
+
+orders = ["daisies", "periwinkle"]
+orders.append("tulips")
+orders.append("roses")
+print(orders)
+
+orders = ["daisy", "buttercup", "snapdragon", "gardenia", "lily"]
+
+# Create new orders here:
+new_orders = orders + ["lilac","iris"]
+orders_combined = orders + new_orders
+
+broken_prices = [5, 3, 4, 5, 4] + [4]
