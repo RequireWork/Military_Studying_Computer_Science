@@ -28,3 +28,21 @@ shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
 last_element = shopping_list[-1]
 index5_element = shopping_list[5]
 print(last_element, index5_element)
+
+# Your code below:
+
+garden_waitlist = ["Jiho","Adam","Sonny","Alisha"]
+garden_waitlist[1] = "Calla"
+garden_waitlist[-1] = "Alex"
+print(garden_waitlist)
+
+# Your code below: 
+
+order_list = ["Celery","Orange Juice","Orange","Flatbread"]
+order_list.remove("Flatbread")
+new_store_order_list = ["Orange","Apple","Mango","Broccoli","Mango"]
+new_store_order_list.remove("Mango")
+new_store_order_list.remove("Onions")
+
+print(new_store_order_list)
+print(order_list)
