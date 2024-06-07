@@ -70,3 +70,10 @@ names.sort()
 cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
 sorted_cities = cities.sort(reverse=True)
 print(sorted_cities)
+
+games = ["Portal", "Minecraft", "Pacman", "Tetris", "The Sims", "Pokemon"]
+
+# Your code below:
+games_sorted = sorted(games)
+print(games)
+print(games_sorted)
