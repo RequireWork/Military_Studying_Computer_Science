@@ -124,3 +124,15 @@ def get_work(mass, acceleration, distance):
 train_work = get_work(train_mass, train_acceleration, train_distance)
 
 print("The GE train does " +str(train_work)+" Joules of work over " +str(train_distance)+ " meters.")
+
+num1 = 6
+num2 = 3
+
+# Write your if statement here
+if num1 + num2 != 10:
+  not_ten = True
+else:
+  not_ten = False 
+
+# Uncomment the below lines to show the result
+print("Does the sum of the numbers equal 10? " + str(not_ten))
