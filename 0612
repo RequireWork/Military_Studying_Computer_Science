@@ -307,3 +307,12 @@ def more_than_n(my_list, item, n):
   return False
 #Uncomment the line below when your function is done
 print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], 2, 3))
+
+#Write your function here
+def combine_sort(my_list1, my_list2):
+  new_list = my_list1 + my_list2
+  new_sorted = sorted(new_list)
+  return new_sorted
+
+#Uncomment the line below when your function is done
+print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))
