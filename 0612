@@ -272,3 +272,10 @@ print(max_num(-5, -10, -10))
 # should print -5
 print(max_num(2, 3, 3))
 # should print "It's a tie!"
+
+#Write your function here
+def append_size(my_list):
+  my_list.append(len(my_list))
+  return my_list
+#Uncomment the line below when your function is done
+print(append_size([23, 42, 108]))
