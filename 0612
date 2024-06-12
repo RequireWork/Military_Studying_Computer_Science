@@ -223,3 +223,16 @@ print(same_name("Colby", "Colby"))
 # should print True
 print(same_name("Tina", "Amber"))
 # should print False
+
+# Write your always_false function here:
+def always_false(num):
+  if num >=0 or num < 0:
+    return False
+  return False
+# Uncomment these function calls to test your always_false function:
+print(always_false(0))
+# should print False
+print(always_false(-1))
+# should print False
+print(always_false(1))
+# should print False
