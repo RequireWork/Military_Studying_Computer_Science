@@ -83,10 +83,11 @@ print_balance()
 deduct(500)
 calculate_interest_on_savings()
 
+
 # Uncomment this when you reach the "Use the Force" section
-# train_mass = 22680
-# train_acceleration = 10
-# train_distance = 100
+train_mass = 22680
+train_acceleration = 10
+train_distance = 100
 # bomb_mass = 1
 
 
@@ -102,9 +103,14 @@ def c_to_f(c_temp):
   return f_temp
 
 c0_in_fahrenheit = c_to_f(0)
-print(c0_in_fahrenheit)
 
 def get_force(mass, acceleration):
   return mass * acceleration
 
 train_force = get_force(train_mass, train_acceleration)
+
+print("The GE train supplies " + str(train_force) + " Newtons of force.")
+
+def get_energy(mass, c):
+  c = 3 * 10 ** 8
+  return mass * c
