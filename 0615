@@ -143,3 +143,41 @@ $ ls
 $ touch keyboard.txt
 $ ls
 2014  2015  hardware.txt  keyboard.txt
+
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii
+$ ls
+brands.txt  freight  mountain  racing
+$ cd freight
+$ ls
+messenger  porteur
+$ cd porteur
+$ ls
+$ cd ../..
+$ ls
+brands.txt  freight  mountain  racing
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii
+$ cd mountain/downhill
+$ ls
+heavyweight  lightweight
+$ touch dirt.txt
+$ touch mud.txt
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii/mountain/downhill
+$ mkdir safety
+$ cd ../..
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii
+$ ls
+brands.txt  freight  mountain  racing
+$ mkdir bmx
+$ touch bmx/tricks.txt
+$ cd bmx
+$ ls
+tricks.txt
+$ cd ..
+$ ls
+bmx  brands.txt  freight  mountain  racing
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii
