@@ -101,3 +101,14 @@ print(lots_of_math(1, 2, 3, 4))
 # should print 3, -1, -3, 0
 print(lots_of_math(1, 1, 1, 1))
 # should print 2, 0, 0, 0
+
+$ ls
+2014  2015  hardware.txt
+$ pwd
+/home/ccuser/workspace/blog
+$ ls
+2014  2015  hardware.txt
+$ ls pwd
+ls: cannot access 'pwd': No such file or directory
+$ ^C
+$ 
