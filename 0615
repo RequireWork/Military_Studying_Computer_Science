@@ -125,3 +125,21 @@ $ mkdir tv
 $ ls
 tv
 $ 
+
+$ ls
+tv
+$ pwd
+/home/ccuser/workspace/blog/2014/dec/media
+$ cd ../..
+$ ls
+dec
+$ pwd
+/home/ccuser/workspace/blog/2014
+$ cd ..
+$ pwd
+/home/ccuser/workspace/blog
+$ ls
+2014  2015  hardware.txt
+$ touch keyboard.txt
+$ ls
+2014  2015  hardware.txt  keyboard.txt
