@@ -1,3 +1,7 @@
 def get_length(word):
   return len(word)
 
+def letter_check(word, letter):
+  if letter in word:
+    return True
+  return False
