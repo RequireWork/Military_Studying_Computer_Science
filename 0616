@@ -39,3 +39,6 @@ print(attractions)
 
 def add_attraction(destination, attraction):
   destination_index = get_destination_index(destination)
+
+favorite_word = "Home"
+print(favorite_word)
