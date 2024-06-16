@@ -42,3 +42,6 @@ def add_attraction(destination, attraction):
 
 favorite_word = "Home"
 print(favorite_word)
+
+my_name = "YJ"
+first_initial = my_name[0]
