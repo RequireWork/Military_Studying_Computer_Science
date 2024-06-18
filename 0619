@@ -139,4 +139,11 @@ for thread in thread_sold:
   for color in thread.split("&"):
     thread_sold_split.append(color)
 
-print(thread_sold_split)
+def color_count(color):
+  counter = 0
+  for tcolor in thread_sold_split:
+    if color == tcolor:
+      counter += 1 
+  return counter
+
+print(color_count('white'))
