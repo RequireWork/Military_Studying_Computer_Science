@@ -146,4 +146,7 @@ def color_count(color):
       counter += 1 
   return counter
 
-print(color_count('white'))
+colors = ['red', 'yellow', 'green', 'white', 'black', 'blue', 'purple']
+output = "The amount of {} in threads sold are {} many."
+for color in colors:
+  print(output.format(color, color_count(color)))
