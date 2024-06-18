@@ -1,0 +1,6 @@
+def username_generator(first_name, last_name):
+  user_name = first_name[:3] + last_name[:4]
+  return user_name
+
+print(username_generator("Abe", "Simpson"))
+
