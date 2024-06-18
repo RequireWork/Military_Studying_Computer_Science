@@ -134,4 +134,9 @@ total_sales = 0
 for sale in sales:
    total_sales = float(sale.strip('$'))
 
-print(total_sales)
+thread_sold_split = []
+for thread in thread_sold:
+  for color in thread.split("&"):
+    thread_sold_split.append(color)
+
+print(thread_sold_split)
