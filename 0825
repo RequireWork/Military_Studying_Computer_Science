@@ -1,0 +1,63 @@
+owners = ["Jenny", "Alexus", "Sam", "Grace"]
+dogs_names = ["Elphonse", "Dr. Doggy DDS", "Carter", "Ralph"]
+
+names_and_dogs_names = zip(owners,dogs_names)
+list_of_names_and_dogs_names = list(names_and_dogs_names)
+
+print(list_of_names_and_dogs_names)
+
+# Your code below:
+single_digits = [0,1,2,3,4,5,6,7,8,9]
+for digit in single_digits:
+  print(digit)
+  squares = [unsquare*unsquare for unsquare in single_digits]
+  cubes = [cube ** 3 for cube in single_digits]
+print(squares)
+print(cubes)
+
+hairstyles = ["bouffant", "pixie", "dreadlocks", "crew", "bowl", "bob", "mohawk", "flattop"]
+
+prices = [30, 25, 40, 20, 20, 35, 50, 35]
+
+last_week = [2, 3, 5, 8, 4, 4, 6, 2]
+
+total_price = 0
+for price in prices:
+  total_price += price
+average_price = total_price / len(prices)
+print(len(prices))
+print("Average Haircut Price: " + str(average_price))
+new_prices = [price - 5 for price in prices]
+#New Hair Cut prices btw
+print(new_prices)
+total_revenue = 0
+for i in range(len(hairstyles)):
+  total_revenue += prices[i] + last_week[i]
+print(total_revenue)
+average_daily_revenue = total_revenue / 7
+print(average_daily_revenue)
+
+cuts_under_30 = [hairstyles[a] for a in range(len(new_prices)) if new_prices[a] < 30]
+print(cuts_under_30)
+
+
+
+def trip_planner_welcome(name):
+  print("Welcome to tripplanner v1.0 " + name)
+
+# trip_planner_welcome("Home")
+
+def estimated_time_rounded(estimated_time):
+  rounded_time = round(estimated_time)
+  return rounded_time
+
+estimate = estimated_time_rounded(2.5)
+#print(estimate)
+
+def destination_setup(origin, destination, estimated_time, mode_of_transport="Car"):
+  print("Your trip starts off in " + origin)
+  print("And you are traveling to " + destination)
+  print("You will be traveling by " + mode_of_transport)
+  print("It will take approximately " + str(estimated_time) + " hours")
+
+destination_setup("South Korea","Japan","3","Plane")
